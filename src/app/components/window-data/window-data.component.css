@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  
+  .window {
+    position: relative;
+    background-color: rgb(240, 234, 234);
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    top: 200px;
+    cursor: pointer
+  }
+  
+  p {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    color: rgb(56, 56, 56);
+    font-family: Helvetica, Arial, sans-serif;
+    width: 90%;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+  }
+  
+  img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    left: calc(50% - 75px);
+    top: 100px;
+  }
+  
+  
+  .delete {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+    top: 150px;
+    left: calc(50% - 50px);
+    font-weight: bold;
+  }
+  

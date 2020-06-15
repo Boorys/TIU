@@ -1,0 +1,27 @@
+/*table*/
+
+table {
+  position: relative;
+  top: 200px;
+  color: rgb(56, 56, 56);
+  font-family: Helvetica, Arial, sans-serif;
+  width: 90%;
+
+}
+
+td,
+th {
+
+  height: 30px;
+  transition: all 0.3s;
+}
+
+th {
+  background: rgb(240, 234, 234);
+  font-weight: bold;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}

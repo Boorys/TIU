@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+a{
+    font-size:  x-large;
+}
+
+select{
+    height: 30px;
+    font-weight: bold;
+    color:rgb(56, 56, 56);
+    background-color: rgb(194, 191, 191);
+}
+
+
+.change-page{
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+    top: 40px;
+
+
+}
+
+.change-page-btn{
+border-radius: 20px;
+width: 80px;
+height: 30px;
+font-weight: bold;
+text-align: center;
+background-color: green;
+cursor: pointer
+}
+
+.downloadBtn{
+  
+    position: relative;
+    top: 40px;
+    left: calc(100% - 250px);
+}
+
+.default-sort-btn{
+    height: 30px;
+    font-weight: bold;
+    color:rgb(56, 56, 56);
+    background-color: rgb(194, 191, 191);
+}
+
+
+.sorting {
+    
+    position: relative;
+    top: 100px;
+}

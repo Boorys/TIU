@@ -1,0 +1,19 @@
+
+
+
+ <span *ngFor="let user of users">
+ 
+   <div  class="window">
+    <div (click)="navigationToMore(user.userId)">
+     <span>
+       <p>First name: {{user.firstName}}</p>
+     </span>
+ 
+     <img src={{user.photoPath}} alt="portrait">
+  
+ </div >
+ <button *ngIf="this.role" class="delete" (click)="delete(user.userId)">Delete</button>  
+ </div>
+ 
+ </span>
+ 

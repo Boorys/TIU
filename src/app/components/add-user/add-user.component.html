@@ -1,0 +1,18 @@
+<br>
+<label for="">First name</label>
+<input type="text" name="firstName" [(ngModel)]="firstName" placeholder="first name ...">
+<label for="">Last name</label>
+<input type="text" name="lastName" [(ngModel)]="lastName" placeholder="last name ...">
+
+
+<select name="photoPath" [(ngModel)]="photoPath" placeholder="photo ...">
+  <option value="" disabled selected>Select your option</option>
+  <option value="man">men</option>
+  <option value="woman">woman</option>
+  <option value="worker">worker</option>
+  <option value="cyclist">cyclist</option>
+
+</select>
+
+
+<button (click)=handleLogin()>Add new user</button>

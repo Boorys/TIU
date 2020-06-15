@@ -1,0 +1,44 @@
+<div class="sorting">
+<div>
+  <select [(ngModel)]="selectedNumberElementOnPage" (change)="onEditClick()">
+    <option *ngFor="let number of numbers" [ngValue]="number">
+      {{ number }}
+    </option>
+  </select>
+
+  <select [(ngModel)]="sortField" (change)="onEditClick()">
+    <option *ngFor="let field of fields" [ngValue]="field">
+      {{ field }}
+    </option>
+  </select>
+
+  <select [(ngModel)]="sortAsc" (change)="onEditClick()">
+    <option *ngFor="let sort of sorts" [ngValue]="sort">
+      {{ sort }}
+    </option>
+  </select>
+
+  <button class="default-sort-btn" (click)=defaultSort()>Default sort</button>
+</div>
+
+<div class="downloadBtn">
+<app-export-data [sortPreference]="sortPreferences"></app-export-data>
+</div>
+
+<div class="change-page">
+
+    <button (click)="previousPage()" class="change-page-btn">Previous</button>
+    <span *ngFor="let page of allPages">
+   
+      <span *ngIf="checkBold(page)" style="font-weight: bold">
+        {{page}}
+      </span>
+      <span *ngIf="checkNonBold(page)">
+      {{page}}
+      </span>
+  
+    </span>
+    <button (click)="nextPage()" class="change-page-btn">Next</button>
+  
+  </div>
+</div>

@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+button{
+    position: relative;
+    background-color: rgb(194, 191, 191);
+    color:rgb(56, 56, 56);
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    top: 80px;
+    cursor:pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.windowBtn
+{
+    left: calc(50% - 200px);
+}
+.tableBtn
+{ 
+    left: calc(25% - 200px);
+}
+.logBtn{
+  
+    width: 200px;
+    height: 40px;
+    top: 15px;
+    left: calc(35% - 100px);
+
+}
